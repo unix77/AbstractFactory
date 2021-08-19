@@ -7,7 +7,7 @@ public class app {
 
 	
 	public static void main(String[] args) {
-		System.out.println("Welcome to the app !");
+		System.out.println();
 		FurnitureAbstractFactory modernfactory = new ModernStyleFactory("'Future'");
 		FurnitureAbstractFactory rusticFactory = new RusticStyleFactory("'Antique'");
 		
