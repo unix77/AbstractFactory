@@ -4,8 +4,12 @@ import Products.Chair;
 
 public class ModernChair extends Chair {
 
-	public ModernChair(String m) {
-		this.material = m;
+	public ModernChair(String mat) {
+		super(mat);
+		// TODO Auto-generated constructor stub
 	}
 
+	
+
+	
 }

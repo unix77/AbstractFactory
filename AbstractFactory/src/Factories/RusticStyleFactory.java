@@ -24,11 +24,11 @@ public class RusticStyleFactory extends FurnitureAbstractFactory {
 	}
 	
 	//methods
-	public Chair createChair(String s) {
+	public Chair getChair(String s) {
 		return new RusticChair(s);
 	}
 	
-	public Sofa createSofa(String s) {
+	public Sofa getSofa(String s) {
 		return new RusticSofa(s);
 	}
 

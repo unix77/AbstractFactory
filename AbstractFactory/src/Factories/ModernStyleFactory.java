@@ -24,11 +24,11 @@ public class ModernStyleFactory extends FurnitureAbstractFactory {
 	}
 	
 	//methods
-	public Chair createChair(String s) {
+	public Chair getChair(String s) {
 		return new ModernChair(s);
 	}
 	
-	public Sofa createSofa(String s) {
+	public Sofa getSofa(String s) {
 		return new ModernSofa(s);
 	}
 

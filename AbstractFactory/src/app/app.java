@@ -11,8 +11,8 @@ public class app {
 		FurnitureAbstractFactory modernfactory = new ModernStyleFactory("'Future'");
 		FurnitureAbstractFactory rusticFactory = new RusticStyleFactory("'Antique'");
 		
-		Chair c1 = modernfactory.createChair("wood");
-		Sofa s1 = rusticFactory.createSofa("metal");
+		Chair c1 = modernfactory.getChair("wood");
+		Sofa s1 = rusticFactory.getSofa("metal");
 		
 		System.out.println("chair material is "+c1.getMaterial());
 		System.out.println("sofa material is "+s1.getMaterial());
